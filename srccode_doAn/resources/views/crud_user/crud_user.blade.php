@@ -108,7 +108,7 @@
               <i class="fas fa-trash-alt"></i>
             </button>
           </form>
-          <a href="{{ route('users.deleteCategory', $user->id) }}" title="Sửa">
+          <a href="{{ route('users.updateUser', $user->id) }}" title="Sửa">
             <i class="fas fa-edit"></i>
           </a>
         </td>
